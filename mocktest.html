@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mock Test: Magnetism and Magnetic Moment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .question {
+            margin-bottom: 10px;
+        }
+        
+        .options {
+            margin-bottom: 20px;
+        }
+        
+        .option {
+            margin-right: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        
+        .correct {
+            background-color: green;
+            color: white;
+        }
+        
+        .incorrect {
+            background-color: red;
+            color: white;
+        }
+        
+        .submit-btn {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mock Test: Magnetism and Magnetic Moment</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <strong>1. What is the SI unit of magnetic moment?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="d">d) Ampere-meter²</div>
+            <div class="option" data-answer="b">b) Joule/Tesla</div>
+            <div class="option" data-answer="c">c) Weber/meter</div>
+            <div class="option" data-answer="a">a) Ampere-meter²</div>
+        </div>
+
+        <div class="question">
+            <strong>2. What is the formula for the magnetic moment of a current loop?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="c">c) M = IπR²</div>
+            <div class="option" data-answer="b">b) M = I/2R</div>
+            <div class="option" data-answer="a">a) M = IA</div>
+            <div class="option" data-answer="d">d) M = I/R</div>
+        </div>
+
+        <div class="question">
+            <strong>3. The magnetic moment of a current loop is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="a">a) Directly proportional to the current and radius of the loop</div>
+            <div class="option" data-answer="b">b) Inversely proportional to the current and radius of the loop</div>
+            <div class="option" data-answer="c">c) Directly proportional to the square of the current and radius of the loop</div>
+            <div class="option" data-answer="d">d) Inversely proportional to the square of the current and radius of the loop</div>
+        </div>
+
+        <div class="question">
+            <strong>4. What is the magnetic moment of a solenoid with N turns, carrying a current I and having a length L and radius R?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="c">c) M = N²IL</div>
+            <div class="option" data-answer="b">b) M = NIR</div>
+            <div class="option" data-answer="a">a) M = NIL</div>
+            <div class="option" data-answer="d">d) M = N²IR</div>
+        </div>
+
+        <div class="question">
+            <strong>5. Which of the following statements is correct regarding the magnetic moment of a bar magnet?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="a">a) The magnetic moment is perpendicular to the length of the magnet</div>
+            <div class="option" data-answer="b">b) The magnetic moment is parallel to the length of the magnet</div>
+            <div class="option" data-answer="c">c) The magnetic moment is zero</div>
+            <div class="option" data-answer="d">d) The magnetic moment is independent of the length of the magnet</div>
+        </div>
+
+        <div class="question">
+            <strong>6. The magnetic moment of a bar magnet is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="a">a) Directly proportional to its length and magnetic field strength</div>
+            <div class="option" data-answer="b">b) Inversely proportional to its length and magnetic field strength</div>
+            <div class="option" data-answer="c">c) Directly proportional to its square of length and magnetic field strength</div>
+            <div class="option" data-answer="d">d) Inversely proportional to its square of length and magnetic field strength</div>
+        </div>
+
+        <div class="question">
+            <strong>7. Which of the following is a unit of magnetic field strength?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="a">a) Tesla</div>
+            <div class="option" data-answer="b">b) Weber</div>
+            <div class="option" data-answer="c">c) Ampere-meter</div>
+            <div class="option" data-answer="d">d) Henry</div>
+        </div>
+
+        <div class="question">
+            <strong>8. The torque experienced by a magnetic dipole placed in a uniform magnetic field is maximum when the angle between the magnetic field and the magnetic moment is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="c">c) 90°</div>
+            <div class="option" data-answer="b">b) 45°</div>
+            <div class="option" data-answer="a">a) 0°</div>
+            <div class="option" data-answer="d">d) 180°</div>
+        </div>
+
+        <div class="question">
+            <strong>9. The work done in rotating a magnetic dipole from an angle of 0° to 180° with respect to a uniform magnetic field is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="c">c) Zero</div>
+            <div class="option" data-answer="b">b) Minimum</div>
+            <div class="option" data-answer="a">a) Maximum</div>
+            <div class="option" data-answer="d">d) Constant</div>
+        </div>
+
+        <div class="question">
+            <strong>10. What is the relation between the magnetic moment and angular momentum of an electron in an atom?</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="d">d) M = -L</div>
+            <div class="option" data-answer="c">c) M = L</div>
+            <div class="option" data-answer="b">b) M = -L/2</div>
+            <div class="option" data-answer="a">a) M = L/2</div>
+        </div>
+
+        <div class="question">
+            <strong>11. The magnetic field at the center of a current-carrying loop is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="a">a) Zero</div>
+            <div class="option" data-answer="b">b) Maximum</div>
+            <div class="option" data-answer="c">c) Minimum</div>
+            <div class="option" data-answer="d">d) Indeterminate</div>
+        </div>
+
+        <div class="question">
+            <strong>12. The magnetic field due to a current-carrying circular loop at a point on its axis is:</strong>
+        </div>
+        <div class="options">
+            <div class="option" data-answer="b">b) Inversely proportional to the square of the distance from the center of the loop</div>
+            <div class="option" data-answer="a">a) Directly proportional to the radius of the loop</div>
+            <div class="option" data-answer="c">c) Directly proportional to the square of the current flowing through the loop</div>
+            <div class="option" data-answer="d">d) Inversely proportional to the current flowing through the loop</div>
+        </div>
+
+        <button type="button" class="submit-btn" onclick="submitQuiz()">Submit</button>
+    </form>
+
+    <div id="results" style="display: none;">
+        <h2>Results:</h2>
+        <ul id="answer-list"></ul>
+    </div>
+
+    <script>
+        const options = document.querySelectorAll('.option');
+        const submitBtn = document.querySelector('.submit-btn');
+        const answerList = document.getElementById('answer-list');
+        let correctAnswers = 0;
+
+        options.forEach(option => {
+            option.addEventListener('click', () => {
+                const selectedAnswer = option.getAttribute('data-answer');
+                const questionNumber = option.getAttribute('data-question');
+                const questionOptions = document.querySelectorAll(`.option[data-question="${questionNumber}"]`);
+                if (selectedAnswer) {
+                    if (selectedAnswer === 'a') {
+                        option.classList.add('correct');
+                        correctAnswers++;
+                    } else {
+                        option.classList.add('incorrect');
+                    }
+                    questionOptions.forEach(o => {
+                        if (o.getAttribute('data-answer') !== selectedAnswer) {
+                            o.classList.add('incorrect');
+                        }
+                    });
+                    submitBtn.style.display = 'block';
+                }
+            });
+        });
+
+        function submitQuiz() {
+            answerList.innerHTML = '';
+            options.forEach(option => {
+                const answer = option.getAttribute('data-answer');
+                const listItem = document.createElement('li');
+                listItem.textContent = option.textContent + ' - ' + (answer === 'a' ? 'Correct' : 'Incorrect');
+                if (answer === 'a') {
+                    listItem.classList.add('correct');
+                } else {
+                    listItem.classList.add('incorrect');
+                }
+                answerList.appendChild(listItem);
+            });
+            const score = document.createElement('li');
+            score.textContent = 'Total Correct Answers: ' + correctAnswers + '/' + options.length;
+            answerList.appendChild(score);
+            document.getElementById('results').style.display = 'block';
+
+            // Change color of answer boxes after submit
+            options.forEach(option => {
+                const answer = option.getAttribute('data-answer');
+                if (answer === 'a') {
+                    option.classList.add('correct');
+                } else {
+                    option.classList.add('incorrect');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
